@@ -1,14 +1,6 @@
 # 🎹 Automatización: Piano Virtual - Himno de la Alegría (Serenity BDD + Cucumber y Maven)
 
-Prueba Tecnica QA Diego Reyes
 Este proyecto implementa pruebas automatizadas para validar la funcionalidad de pulsación de teclas y reproducción de melodías en el piano virtual de Musicca.com
-
-Aclaraciones: Actualmente al ejecutar las pruebas da un error dado que la question que se implemento vaida si la clase se modifica al darle click a una tecla, esta deberia cambiar a "active", da error en false por la implementacion de la question
-al parecer hay un erro en el DOM de la pagina donde la steclas negras se superponen a las teclas blancas y nos las encuentra, sin embargo al quitar la implementacion la question en la Task de "tocarSecuencia" la prueba se ejecuta sin problemas,
-pero no hay validadres o ogs para validar si efectivemente se hizo lo que se esperaba
-
-Por cuestiones de tiempo de entrega y dificultades tecnicas, no pude implementar testNG como se solicito, sin embargo, utiilice cucumber y features que son mas manejables para el usuario final
-solo se implemento el escenario 1 que es la secuencia base, pero el json tiene las secuencias de todos los escenarios, solo hace falta replicarlos en los Steps
 
 ## 1. URL del Repositorio
 
